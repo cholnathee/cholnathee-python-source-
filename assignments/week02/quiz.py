@@ -15,7 +15,6 @@ Below 18.5: Underweight
 18.5 - 24.9: Normal weight
 25.0 - 29.9: Overweight
 30.0 and above: Obese
-
 """
 
 
@@ -30,4 +29,3 @@ Ask for the amount to convert
 Use exchange rate: 1 USD = 35.5 THB
 Display result with 2 decimal places
 Show the calculation formula used
-"""
