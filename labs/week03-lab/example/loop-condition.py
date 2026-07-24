@@ -42,6 +42,9 @@ while count <= 5:
     print(f"รอบที่ {count}")
     count += 1  # เพิ่มค่า count
 
+for i in range(5):
+    print(f"รอบที่ {i}")
+
 print("\nDemo while กับ input (จำลอง):")
 # จำลองการใช้งานโดยไม่ต้อง input จริง
 responses = ["hello", "world", "quit"]
