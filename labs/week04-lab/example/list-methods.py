@@ -32,3 +32,6 @@ print(f"Reversed fruits: {fruits}")        # ['orange', 'apple', 'banana', 'appl
 print(f"Min: {min(numbers)}")              # 1
 print(f"Max: {max(numbers)}")              # 9
 print(f"Sum: {sum(numbers)}")              # 36
+
+#แล้วค่าฌฉลี่ยล่ะ number = {3, 1, 4, 1, 5, 9, 2, 6, 5}
+avarage = sum(number)
