@@ -34,7 +34,7 @@ print(create_user_profile("Piti", 23, True))
 """
 
 def create_user_profile(username, age=18, premium=False):
-    status = "Premium User" if premium else "Standard User"
+    status = "Premium" if premium else "Standard"
     return f"{username} (age: {age}) - {status}"
 
 
