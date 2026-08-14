@@ -1,0 +1,99 @@
+#part2
+example1
+
+Calling greet_person with different names:
+มาจาก 
+print("Calling greet_person with different names:")
+
+Hello, Alice! Nice to meet you.
+มาจาก print(f"Hello, {name}! Nice to meet you.") 
+โดยกำหนด name คือ greet_person("Alice")
+
+Hello, Bob! Nice to meet you.
+มาจาก print(f"Hello, {name}! Nice to meet you.") 
+โดยกำหนด name คือ greet_person("Bob")
+
+Hello, Charlie! Nice to meet you.
+มาจาก print(f"Hello, {name}! Nice to meet you.") 
+โดยกำหนด name คือ greet_person("Charlie")
+
+example2
+
+Calling introduce_person:
+Hi! My name is Diana.
+I am 25 years old.
+I live in New York.
+
+Hi! My name is Eve.
+I am 30 years old.
+I live in Los Angeles.
+
+example3
+
+Calculating rectangle areas:
+Rectangle with length 5 and width 3
+Area = 5 x 3 = 15
+
+Rectangle with length 10 and width 7
+Area = 10 x 7 = 70
+
+#part3
+example1
+Using functions that return values:
+5 + 3 = 8
+10 + 7 = 17
+Sum of both results: 25
+
+example2
+Circle calculations:
+มาจาก print("Circle calculations:")
+
+Circle with radius 5:
+มาจาก print(f"Circle with radius {radius}:")
+โดย {radius} คือ 5 มาจาก radius = 5
+
+Area: 78.54
+มาจาก print(f"Area: {area:.2f}")
+โดย {area:.2f} ได้จาก
+pi = 3.14159
+area = pi * radius * radius
+
+Circumference: 31.42
+มาจาก print(f"Circumference: {circumference:.2f}")
+โดย {circumference:.2f} ได้จาก
+pi = 3.14159
+circumference = 2 * pi * radius
+
+#part4
+example1
+
+Using default parameters:
+มาจาก print("Using default parameters:")
+
+Hello, Mr./Ms. Smith!
+มาจาก print(f"Hello, {title} {name}!")
+โดยกำหนด name คือ Smith ส่วน title ใช่ค่าเริ่มต้น
+
+Hello, Dr. Johnson!
+มาจาก print(f"Hello, {title} {name}!")
+โดยกำหนด name คือ Johnson ส่วน title คือ Dr.
+
+Hello, Prof. Brown!
+มาจาก print(f"Hello, {title} {name}!")
+โดยกำหนด name คือ Brown ส่วน title คือ Prof.
+
+example2
+
+Multiple default parameters:
+Profile: Alice, Age: 18, Country: Unknown
+Profile: Bob, Age: 25, Country: Unknown
+Profile: Charlie, Age: 30, Country: USA
+
+#part5
+Scope demonstration:
+Before function call - Counter: 0
+Inside function - Global: I'm a global variable
+Inside function - Local: I'm a local variable
+Counter inside function: 1
+After function call - Counter: 1
+Outside function - Global: I'm a global variable
