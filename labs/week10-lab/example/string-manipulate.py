@@ -117,7 +117,9 @@ print(f"{count} letters 'l' found in '{text}'")
 
 print("\n=== MEMBERSHIP TEST ===")
 print("'a' in 'program':", 'a' in 'program')  # True
+#คือ a มีอยู่ใน program หรือไม่
 print("'at' not in 'battle':", 'at' not in 'battle')  # False
+#คือ at ไม่มีอยู่ใน  battle หรือไม่
 
 # ===========================
 # 9. STRING IMMUTABILITY 
@@ -152,7 +154,7 @@ print("Tab example:")
 print("Column1\tColumn2\tColumn3")
 
 print("Backslash example:")
-print("Path: C:\\Users\\Python")
+print("Path: C:\\Users\\Python") # Path: C:\Users\Python
 
 print("Quote examples:")
 print('He said, "What\'s there?"')
@@ -185,9 +187,11 @@ sal = 20000
 
 # Different format styles
 str1 = '{},{},{}'.format(id_num, name, sal)
+strl = f'{id_num},{name},{sal}'
 print(str1)  # 10,shankar,20000
 
 str2 = '{} - {} - {}'.format(id_num, name, sal)
+str2 = f'{id_num} - {name} - {sal}'
 print(str2)  # 10 - shankar - 20000
 
 str3 = 'id={}\nname={}\nsal={}'.format(id_num, name, sal)
@@ -215,7 +219,7 @@ print(f"Ends with 'python': {text.endswith('python')}")
 
 # Modification methods
 print(f"Replace 'python' with 'java': {text.replace('python', 'java')}")
-words = text.split()
+words = text.split('-') # ['walcome', 'to', 'the', 'world', 'of', 'java']
 print(f"Split into words: {words}")
 print(f"Join with '-': {'-'.join(words)}")
 
